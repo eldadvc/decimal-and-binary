@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: inherit; */
+}
+
+body {
+  font-family: sans-serif;
+
+  background-color: #a2a2a2;
+  /* background-image: linear-gradient(to top left, #dbd8db 0%, #464343 100%); */
+  padding: 50px;
+}
+.container {
+  display: flex;
+  gap: 10px;
+}
+.main-container {
+  background-image: linear-gradient(to top left, #464343 0%, #dbd8db 100%);
+  border-radius: 10px;
+  /* width: 70%; */
+  width: 650px;
+
+  /* height: 50%; */
+  /* margin: auto; */
+  padding: 30px;
+  /* padding-left: 30px;
+  padding-top: 30px;
+  padding-right: 30px; */
+}
+
+aside,
+.container2 {
+  /* width: 650px; */
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  line-height: 1.8;
+}
+
+.title-container {
+  /* background-color: #444; */
+}
+.title {
+  color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 40px;
+}
+/* .image-section {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  background-color: aqua;
+  padding: 10px;
+  position: ;
+  display: inline-block;
+}
+.img {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.img:last-child {
+  margin-right: 0;
+} */
+
+.number-container {
+  background-color: rgb(24, 24, 24);
+  width: 15%;
+  padding: 25px;
+  /* margin: auto; */
+  text-align: center;
+  font-size: 35px;
+  height: 60px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.number2-container {
+  background-color: #ffffff;
+}
+.number-container-win {
+  background-color: greenyellow;
+}
+.number {
+  color: white;
+  /* height: 60px; */
+}
+.clickSum {
+  /* background-color: bisque; */
+  color: rgb(0, 0, 0);
+}
+.number-win {
+  color: black;
+}
+
+.numbers {
+  display: flex;
+  justify-content: space-evenly;
+  /* gap: 40px; */
+}
+.btn-section {
+  position: relative;
+  /* background-color: blue; */
+  padding: 10px;
+}
+
+.btn-container {
+  /* background-color: rgb(162, 194, 231); */
+  /* width: 70%; */
+  margin: auto;
+  text-align: center;
+  height: 50px;
+  padding: 25px;
+  align-items: center;
+  display: flex;
+  gap: 15px;
+  /* position: relative; */
+  /* margin-bottom: 60px; */
+}
+/* .btn:focus {
+    outline: none;
+    background-color: bisque;
+  } */
+.btn:hover {
+  color: white;
+  background: #464343;
+}
+
+.btn:active {
+  /* border: solid rgb(255, 0, 0); */
+  font-weight: bold;
+}
+
+.roll-btn,
+.clear-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  width: 180px;
+  font-size: 18px;
+}
+
+.control-btns {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 10px; */
+  /* justify-items: space-around; */
+}
+
+/* .btn_128:hover {
+  background-color: #c9a4a4;
+  content: "128";
+} */
+/* .btn_128 */
+
+.bulb {
+  width: 50px;
+  margin: 10px;
+}
+/* .bulb-off{
+    content: url("light-bulb_off.png");
+    width: 50px;
+    background-color: black;
+    border-radius: 25px;
+    }
+.bulb-on{
+    background-color: yellow;
+   
+} */
+
+/* .bulb--128{
+   
+   left: 10%;
+} */
+.hidden {
+  display: none;
+}
+
+/* .tstBtn {
+    background:url("light-bulb_on_50.png") no-repeat;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: black;
+}
+.tstBtn:hover{
+    border: 2px solid rgb(255, 0, 0);
+} */
+
+.button {
+  width: 57px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  /* position: absolute; */
+}
+.button:hover {
+  border: 2px solid rgb(2, 240, 34);
+}
+.bulbOn {
+  background-color: rgb(255, 255, 255);
+  font-weight: bold;
+  color: black;
+}
+
+/* .btn_128 {
+  left: 12%;
+}
+.btn_64 {
+  left: 22%;
+}
+.btn_32 {
+  left: 32%;
+}
+.btn_16 {
+  left: 42%;
+}
+.btn_8 {
+  left: 52%;
+}
+.btn_4 {
+  left: 62%;
+}
+.btn_2 {
+  left: 72%;
+}
+.btn_1 {
+  left: 82%;
+} */
+
+p {
+  margin: 30px;
+}
+
+.btn-128-container,
+.btn--container {
+  position: relative;
+}
+.plus-128,
+.plus {
+  position: absolute;
+  top: -30px;
+  right: -17px;
+  width: 40px;
+  height: 40px;
+  background: red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.hide {
+  display: none;
+}
+
+.instructions {
+  /* padding: 20px; */
+}
+
+ul {
+  margin-left: 25px;
+  padding-bottom: 10px;
+  /* padding: 5px; */
+  /* font-size: 1.2rem; */
+}
+
+.need-to-know {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+li:hover {
+  background: #7e7d7d;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.container2 {
+  margin-top: 20px;
+}

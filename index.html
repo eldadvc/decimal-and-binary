@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+
+    <title>Binary Game</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <section class="main-container">
+        <div class="control-btns">
+
+          <button class="btn roll-btn">New Number</button>
+          <button class="btn clear-btn">Clear</button>
+        </div>
+        <div class="title-container">
+          <h1 class="title">Converting to Binary</h1>
+        </div>
+        <div class="numbers">
+          <div class="number-container">
+            <h2 class="number hidden">255</h2>
+          </div>
+          <div class="number-container number2-container">
+            <h2 class="clickSum hidden_">0</h2>
+          </div>
+        </div>
+        <div class="btn-section">
+          <div class="btn-container">
+            <div class="btn-128-container btn--container">
+              <input class="btn_128 button" type="submit" value="0" />
+              <span class="plus-128 hide">+128</span>
+            </div>
+            <div class="btn--container">
+              <input class="btn_64 button" type="submit" value="0" />
+              <span class="plus-64 plus hide">+64</span>
+            </div>
+            <div class="btn--container">
+              <input class="btn_32 button" type="submit" value="0" />
+              <span class="plus-32 plus hide">+32</span>
+            </div>
+            <div class="btn--container">
+              <input class="btn_16 button" type="submit" value="0" />
+              <span class="plus-16 plus hide">+16</span>
+            </div>
+            <div class="btn--container">
+              <input class="btn_8 button" type="submit" value="0" />
+              <span class="plus-8 plus hide">+8</span>
+            </div>
+            <div class="btn--container">
+              <input class="btn_4 button" type="submit" value="0" />
+              <span class="plus-4 plus hide">+4</span>
+            </div>
+            <div class="btn--container">
+              <input class="btn_2 button" type="submit" value="0" />
+              <span class="plus-2 plus hide">+2</span>
+            </div>
+            <div class="btn--container">
+              <input class="btn_1 button" type="submit" value="0" />
+              <span class="plus-1 plus hide">+1</span>
+            </div>
+            <!-- <button class="btn--128 btn btog">128</button> -->
+            <!-- <input class="tstBtn" type="submit" value=""> -->
+            <!-- <button class="btn--64 btn btog">64</button>
+        <button class="btn--32 btn btog">32</button>
+        <button class="btn--16 btn btog">16</button>
+        <button class="btn--8 btn btog">8</button>
+        <button class="btn--4 btn btog">4</button>
+        <button class="btn--2 btn btog">2</button>
+        <button class="btn--1 btn btog">1</button> -->
+          </div>
+        </div>
+        <!-- <p>My name is bubu, and this is a web page.</p> -->
+      </section>
+
+      <aside>
+
+        <!-- <div class="instructions"></div> -->
+        <h2 class="instrictions-title">Decimal to Binary Easy Peasy</h2>
+        <div class="need-to-know">What you need to know:</div>
+        <ul>
+          <li>Binary numbers are numbers just like any other number.</li>
+          <li>You can count anything using binary numbers, just like you would using decimal numbers.</li>
+          <li>While decimal numbers consist of ten digits (0 - 9, representing ten values), binary numbers consist of two digits (0 - 1, representing two values).</li>
+          <li>With decimal numbers, we add a 'position' to the left of the number containing another digit to represent a quantity larger than 9. For a number larger than 99, we add another position.</li>
+          <li>All decimal positions are powers of 10 (1, 10, 100, 1000, 10000, and so on).</li>
+          <li>We do the same for binary numbers, the only difference being (see next bullet).</li>
+          <li>All binary number positions are powers of 2.</li>
+          <li>The positions in a binary number consisting of 8 digits are (from left to right: <b>128, 64, 32, 16, 8, 4, 2, 1</b>)</li>
+          <li>Therefore the binary number 11000001 converted to decimal is 193.</li>
+          <li>1x128 + 1x64 + 1x0 + 1x0 + 1x0 + 1x0 + 1x0 +1x1 = 128 + 64 + 0 + 0 + 0 + 0 + 0 +1 = 193.</li>
+          <li>Try it yourself; practice makes perfect.</li>
+
+        </ul>
+      </div>
+      </aside>
+      <div class="container2">
+        <h2 class="instrictions-title">How this Works</h2>
+        <ul>
+          <li>The container to the right displaying <b>0</b> will show the value of the binary number you construct using the row of eight ones and zeros in decimal. Hovering over and clicking them will show the value of the binary position.</li>
+          <li>Clicking on the New Number button will generate a decimal number. Your task is to use the row of eight ones and zeros to create the binary equivalent. </li>
+        </ul>
+       
+      </div>
+  </body>
+  <script src="script.js"></script>
+</html>
